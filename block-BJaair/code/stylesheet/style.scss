@@ -1,0 +1,79 @@
+@import "reset";
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.notice-display li{
+    font-family: 'Lobster', cursive;
+    border: 1px solid rgb(42, 155, 27) ;
+    padding: 0.8rem;
+    margin: 2rem;
+    background-color: rgb(86, 94, 109);
+}
+
+p {
+    font-family: 'Moon Dance', cursive;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 36px;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1fr;
+}
+
+form {
+    border: 0.3rem solid olive;
+    padding: 1rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input, button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.8rem auto;
+    outline: none;
+    border: 0;
+    &:hover{
+        border: 3px solid rgb(97, 97, 212);
+    }
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        border: 3px solid rgb(97, 97, 212);
+    }
+
+}
+
+
